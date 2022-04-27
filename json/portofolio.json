@@ -1,8 +1,9 @@
 [
     {
         "judul":"Digital Fertilizer", 
-        "deskripsi": "Website for monitoring equipment health of tool, every data stored in system it will be automatically send to holding Pupuk Indonesia using API.", 
-        "tag":["codeigniter 3"],
+        "deskripsi": "Website untuk monitoring kesehatan equipment pabrik, setiap data yang tersimpan di sistem akan secara otomatis terkirim ke holding Pupuk Indonesia melalui API.", 
+        "category": "Work",
+        "tag":["Codeigniter 3"],
         "tagColor" : ["red"],
         "images": [
             "images/pkc_digifert/digifert-login.png",
@@ -15,8 +16,9 @@
     },
     {
         "judul":"Digital Inspeksi", 
-        "deskripsi": "Internal website for managing archive files, supplies of consumables and tools condition. Every archive file is stored in Google Drive using Google Drive API.", 
-        "tag":["codeigniter 3"],
+        "deskripsi": "Website internal untuk mengelola file arsip, stok dan history barang consumables dan tools. Setiap file arsip disimpan di Google Drive melalui Google Drive API.", 
+        "category": "Work",
+        "tag":["Codeigniter 3"],
         "tagColor" : ["red"],
         "images": [
             "images/pkc_digital_inspeksi/digital-inspeksi-login.png",
@@ -29,12 +31,25 @@
     },
     {
         "judul":"Tube Sheet Maker", 
-        "deskripsi": "Desktop application for create visual image of tube sheet.", 
-        "tag":["codeigniter 3"],
+        "deskripsi": "Aplikasi berbasis desktop untuk membuat gambar visual tube sheet.", 
+        "category": "Work",
+        "tag":["C#", ".NET Framework"],
         "tagColor" : ["red"],
         "images": [
             "images/tube_sheet_maker/example_tube.png",
             "images/tube_sheet_maker/example_tube_hide_all_line.png"
+        ]
+    },
+    {
+        "judul":"PASTA", 
+        "deskripsi": "Website aplikasi yang dibuat untuk mempermudah pengelolaan Work Order.", 
+        "category": "Internship",
+        "tag":["Codeigniter 3"],
+        "tagColor" : ["red"],
+        "images": [
+            "images/pasta/dashboard.png",
+            "images/pasta/konfirmasi.png",
+            "images/pasta/ubah_pw.png"
         ]
     }
 ]
