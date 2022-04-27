@@ -34,8 +34,7 @@
         "tagColor" : ["red"],
         "images": [
             "images/tube_sheet_maker/example_tube.png",
-            "images/tube_sheet_maker/example_tube_hide_all_line.png",
-            "images/tube_sheet_maker/example_tube_exported.png"
+            "images/tube_sheet_maker/example_tube_hide_all_line.png"
         ]
     }
 ]
