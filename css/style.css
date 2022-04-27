@@ -1,0 +1,238 @@
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            overflow: none;
+            overflow-x: hidden;
+            font-family: 'Rajdhani', sans-serif;
+        }
+
+        .bg-animation {
+            overflow: hidden;
+        }
+
+        .ball {
+            position: absolute;
+            border-radius: 100%;
+            background: none;
+            opacity: 0.7;
+        }
+
+        .box {
+            position: absolute;
+            background: none;
+            opacity: 0.7;
+        }
+
+        div.sticky {
+            position: -webkit-sticky;
+            position: sticky;
+            top: 0;
+            padding: 50px;
+            font-size: 20px;
+        }
+
+        .timeline {
+            border-left: 3px solid #007bff;
+            border-bottom-right-radius: 4px;
+            border-top-right-radius: 4px;
+            background: rgb(0, 123, 255, 0.09);
+            margin: 0 auto;
+            letter-spacing: 0.2px;
+            position: relative;
+            line-height: 1.4em;
+            font-size: 1.03em;
+            list-style: none;
+            text-align: left;
+            max-width: 100%;
+            padding: 25px;
+        }
+
+        .timeline h1 {
+            font-weight: 300;
+            font-size: 1.4em;
+        }
+
+        .timeline h2,
+        .timeline h3 {
+            font-weight: 600;
+            font-size: 1rem;
+            margin-bottom: 5px;
+        }
+
+        .timeline h4 {
+            font-size: 0.95rem;
+            margin-bottom: 5px;
+        }
+
+        .timeline span {
+            border-left: 2px solid #007bff;
+            font-size: 0.9rem;
+            margin-bottom: 5px;
+            padding-left: 5px;
+        }
+
+        .timeline span:after {
+            content: "\a";
+            white-space: pre;
+        }
+
+        .timeline h5 {
+            border-left: 0px;
+            font-size: 0.9rem;
+            margin-bottom: 5px;
+            margin-top: 3px;
+            font-style: italic;
+        }
+
+        .timeline .event {
+            border-bottom: 1px dashed #e8ebf1;
+            padding-bottom: 5px;
+            margin-bottom: 25px;
+            position: relative;
+            padding-top: 30px;
+        }
+
+        .timeline .event:last-of-type {
+            padding-bottom: 0;
+            margin-bottom: 0;
+            border: none;
+        }
+
+        .timeline .event:before,
+        .timeline .event:after {
+            position: absolute;
+            display: block;
+            top: 0;
+        }
+
+        .timeline .event:before {
+            content: attr(data-date);
+            text-align: right;
+            font-weight: 100;
+            font-size: 0.9em;
+            min-width: 120px;
+            left: 0px;
+            text-align: left;
+        }
+
+        .timeline .event:after {
+            -webkit-box-shadow: 0 0 0 3px #727cf5;
+            box-shadow: 0 0 0 3px #727cf5;
+            background: #fff;
+            border-radius: 50%;
+            height: 9px;
+            width: 9px;
+            content: "";
+            top: 5px;
+            left: -31.8px;
+        }
+
+        .rtl .timeline {
+            border-left: 0;
+            text-align: right;
+            border-bottom-right-radius: 0;
+            border-top-right-radius: 0;
+            border-bottom-left-radius: 4px;
+            border-top-left-radius: 4px;
+            border-right: 3px solid #727cf5;
+        }
+
+        .rtl .timeline .event::before {
+            left: 0;
+            right: -170px;
+        }
+
+        .rtl .timeline .event::after {
+            left: 0;
+            right: -55.8px;
+        }
+
+        .focus-text {
+            background: #007bff;
+            padding: 10px;
+            color: white;
+            font-weight: bold;
+        }
+
+        i.fab {
+            display: inline-block;
+            border-radius: 60px;
+            border: 1px solid white;
+            box-shadow: 0px 0px 2px #888;
+            padding: 0.5em 0.6em;
+            margin-right: 10px;
+        }
+
+        .tag {
+            display: inline-block;
+            border-radius: 5px;
+            box-shadow: 0px 0px 2px #888;
+            padding: 0.5em 0.6em;
+            margin-right: 10px;
+        }
+
+        #type-text {
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+
+        .text-bold{
+            font-weight: bold !important;
+        }
+
+        .nav-item .nav-link{
+            font-size: 1rem !important;
+            font-weight:700;
+            color:rgb(255, 255, 255 ,0.9) !important;
+        }
+
+        .nav-item .nav-link:hover{
+            color:rgb(255, 255, 255) !important;
+        }
+
+        .cursor-pointer{
+            cursor: pointer !important;
+        }
+
+        .img-size{
+                padding: 0;
+                margin: 0; 
+                height: auto;
+                width: 100%;
+                background-size: cover;
+                overflow: hidden;
+        }
+        
+        .modal {
+            bottom: 0;
+            left: 0;
+            margin: auto;
+            max-height: 500px;
+            max-width: 600px;
+            min-width: 300px;
+            position: fixed;
+            right: 0;
+            top: 0;
+        }
+
+        .modal-body {
+           padding: 0;
+        }
+        
+        .carousel-control-prev-icon {
+            background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23009be1' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+            width: 30px;
+            height: 48px;
+        }
+        .carousel-control-next-icon {
+            background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23009be1' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+            width: 30px;
+            height: 48px;
+        }
+
+        card .card-img-top:hover{
+            height: 110% !important;
+            width: auto !important;
+        }

@@ -1,0 +1,41 @@
+[
+    {
+        "judul":"Digital Fertilizer", 
+        "deskripsi": "Website for monitoring equipment health of tool, every data stored in system it will be automatically send to holding Pupuk Indonesia using API.", 
+        "tag":["codeigniter 3"],
+        "tagColor" : ["red"],
+        "images": [
+            "images/pkc_digifert/digifert-login.png",
+            "images/pkc_digifert/digifert-dashboard.png",
+            "images/pkc_digifert/digifert-equipment-health.png",
+            "images/pkc_digifert/digifert-equipment-last-condition.png",
+            "images/pkc_digifert/digifert-parameter-trend.png",
+            "images/pkc_digifert/digifert-history-pdf.png"
+        ]
+    },
+    {
+        "judul":"Digital Inspeksi", 
+        "deskripsi": "Internal website for managing archive files, supplies of consumables and tools condition. Every archive file is stored in Google Drive using Google Drive API.", 
+        "tag":["codeigniter 3"],
+        "tagColor" : ["red"],
+        "images": [
+            "images/pkc_digital_inspeksi/digital-inspeksi-login.png",
+            "images/pkc_digital_inspeksi/digital-inspeksi-dashboard.png",
+            "images/pkc_digital_inspeksi/digital-inspeksi-list-alat.png",
+            "images/pkc_digital_inspeksi/digital-inspeksi-list-consumables.png",
+            "images/pkc_digital_inspeksi/digital-inspeksi-history-alat.png",
+            "images/pkc_digital_inspeksi/digital-inspeksi-history-consumables.png"
+        ]
+    },
+    {
+        "judul":"Tube Sheet Maker", 
+        "deskripsi": "Desktop application for create visual image of tube sheet.", 
+        "tag":["codeigniter 3"],
+        "tagColor" : ["red"],
+        "images": [
+            "images/tube_sheet_maker/example_tube.png",
+            "images/tube_sheet_maker/example_tube_hide_all_line.png",
+            "images/tube_sheet_maker/example_tube_exported.png"
+        ]
+    }
+]
