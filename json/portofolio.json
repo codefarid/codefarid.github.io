@@ -42,7 +42,7 @@
     },
     {
         "judul":"PASTA", 
-        "deskripsi": "Website aplikasi yang dibuat untuk mempermudah pengelolaan Work Order.", 
+        "deskripsi": "Website yang dibuat untuk mempermudah pengelolaan Work Order.", 
         "category": "Internship",
         "tag":["Codeigniter 3"],
         "tagColor" : ["red"],
